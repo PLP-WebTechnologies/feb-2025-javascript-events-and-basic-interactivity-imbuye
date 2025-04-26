@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>🐾 Spark & Spidey's Playground</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Meet Spark & Spidey! 🐱✨</h1>
+    <p>Stories of a Supermom and Her Adventurous Kitten</p>
+  </header>
+
+  <main>
+    <!-- Button Section -->
+    <section id="buttons">
+      <h2>Button Magic ✨</h2>
+      <button id="colorButton">Click Me for Cat Magic!</button>
+      <button id="secretButton">Double Click for a Surprise!</button>
+    </section>
+
+    <!-- Image Gallery Section -->
+    <section id="gallery">
+      <h2>Our Gallery 📸</h2>
+      <img id="galleryImage" src="https://via.placeholder.com/300" alt="Gallery Image">
+      <br>
+      <button id="nextImage">Next Memory ➡️</button>
+    </section>
+
+    <!-- Tabs Section -->
+    <section id="tabs">
+      <h2>About Them 🐾</h2>
+      <div class="tab-buttons">
+        <button class="tab-btn" data-tab="tab1">Spark</button>
+        <button class="tab-btn" data-tab="tab2">Spidey</button>
+        <button class="tab-btn" data-tab="tab3">Their Story</button>
+      </div>
+      <div class="tab-content" id="tab1">
+        <h3>🌟 Spark</h3>
+        <p>Mom cat extraordinaire! Spark has given birth to 15 kittens (5 litters, 3 kittens each). She's loving, fierce, and a little queen. 👑</p>
+      </div>
+      <div class="tab-content" id="tab2" style="display:none;">
+        <h3>🕷️ Spidey</h3>
+        <p>Spidey is Spark’s adventurous kitten who stayed! Always climbing and exploring, she lives up to her name. 🕸️</p>
+      </div>
+      <div class="tab-content" id="tab3" style="display:none;">
+        <h3>💖 Their Story</h3>
+        <p>All of Spark's other kittens found loving homes. Now Spark and Spidey live their best life together, chasing sunbeams and cuddling at nap time! 💤</p>
+      </div>
+    </section>
+
+    <!-- Form Section -->
+    <section id="form-section">
+      <h2>Stay in Touch! 📬</h2>
+      <form id="signupForm" novalidate>
+        <input type="text" id="name" placeholder="Your Name" required><br>
+        <input type="email" id="email" placeholder="Your Email" required><br>
+        <input type="password" id="password" placeholder="Create a Password" required><br>
+        <button type="submit">Join Our Cat Club</button>
+        <div id="formMessages"></div>
+      </form>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
